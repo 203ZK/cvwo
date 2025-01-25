@@ -1,0 +1,99 @@
+.threadPage {
+    width: 50%;
+    margin: 0 auto;
+    min-width: 600px;
+}
+
+.threadPost {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+.threadCard {
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 0 auto 12px auto;
+}
+
+.threadCard:hover {
+    cursor: pointer;
+}
+
+.threadHeader {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 20px 0;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.flairLabel {
+    position: absolute;
+    top: -2px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 6px 10px;
+    margin: 0 10px;
+    border: none;
+    color: white;
+    font-size: 0.8em;
+}
+
+.flairLabel[id="Admin"] {
+    background-color: rgb(210, 152, 60);
+}
+
+.flairLabel[id="Lectures"] {
+    background-color: rgb(0, 120, 110);
+}
+
+.flairLabel[id="Tutorials/Assignments"] {
+    background-color: rgb(4, 92, 143);
+}
+
+.flairLabel[id="Exams"] {
+    background-color: rgb(185, 27, 27);
+}
+
+.content {
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.author {
+    font-size: 0.8em;
+    color: grey;
+    font-style: italic;
+}
+
+.card {
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+}
+
+.btnDiv {
+    display: flex;
+    align-items: center;
+}
+
+.returnBtn {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(0, 108, 93);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+.returnBtn:hover {
+    cursor: pointer;
+}

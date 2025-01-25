@@ -1,0 +1,43 @@
+.forum {
+    width: 50%;
+    margin: 0 auto;
+    min-width: 600px;
+}
+
+.actionBar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    margin-top: 20px;
+}
+
+.btn {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(0, 108, 93);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.searchBar {
+    display: inline-block;
+}
+
+.flairSearch {
+    padding: 8px 10px;
+}
+
+.flairSearch:hover {
+    cursor: pointer;
+}
+
+.results {
+    font-weight: bold;
+}

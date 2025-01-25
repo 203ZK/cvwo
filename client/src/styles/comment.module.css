@@ -1,0 +1,39 @@
+.comment {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 18px 0;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-right: 8px;
+}
+
+.created {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.content {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.deleteBtn {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+    border-radius: 100%;
+    padding: 5px;
+    top: 0;
+    right: 4px;
+}
+
+.deleteBtn:hover {
+    background-color: rgb(212, 210, 210);
+    cursor: pointer;
+}

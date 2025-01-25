@@ -1,0 +1,30 @@
+.formDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.commentInput {
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 0 10px 0 0;
+    border: 0.3px solid grey;
+    width: 100%;
+}
+
+.commentBtn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100%;
+    color: rgb(5, 112, 201);
+    background: none;
+    font-size: 1.1em;
+}
+
+.commentBtn:hover {
+    background-color: rgb(212, 210, 210);
+    cursor: pointer;
+}

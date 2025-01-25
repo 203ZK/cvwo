@@ -1,0 +1,80 @@
+.threadCard {
+    border: 2px solid rgb(0, 108, 93);
+    border-radius: 10px;
+    padding: 20px 20px 10px 20px;
+    margin: 0 auto 16px auto;
+    position: relative;
+}
+
+.titleDiv {
+    position: relative;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.content {
+    margin-top: 24px;
+    font-size: 0.9em;
+}
+
+.author {
+    font-size: 0.8em;
+    color: grey;
+    font-style: italic;
+}
+
+.flairLabel {
+    position: absolute;
+    top: -2px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 6px 10px;
+    margin: 0 10px;
+    border: none;
+    color: white;
+    font-size: 0.8em;
+}
+
+.flairLabel[id="Admin"] {
+    background-color: rgb(210, 152, 60);
+}
+
+.flairLabel[id="Lectures"] {
+    background-color: rgb(0, 120, 110);
+}
+
+.flairLabel[id="Tutorials/Assignments"] {
+    background-color: rgb(4, 92, 143);
+}
+
+.flairLabel[id="Exams"] {
+    background-color: rgb(185, 27, 27);
+}
+
+.editBtn, .viewBtn {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+    border-radius: 100%;
+    padding: 5px;
+    bottom: 16px;
+}
+
+.editBtn {
+    right: 60px;
+}
+
+.viewBtn {
+    right: 20px;
+}
+
+.editBtn:hover, .viewBtn:hover {
+    background-color: rgb(212, 210, 210);
+    cursor: pointer;
+}
